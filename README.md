@@ -5,10 +5,10 @@
 
 * Training data based on textual judgement
 Textual judgement: 
- * 200 cases obesity vs. 200 cases unmentioned.
+	* 200 cases obesity vs. 200 cases unmentioned.
 * Testing data based on intuitive judgement
 Intuitive judgement: 
- * 200 cases obesity vs. 200 cases absence
+	* 200 cases obesity vs. 200 cases absence
 * Validation data (50 cases) based on textual judgemen
 
 
