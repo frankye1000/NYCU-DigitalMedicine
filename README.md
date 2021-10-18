@@ -11,8 +11,9 @@ Intuitive judgement:
 	* 200 cases obesity vs. 200 cases absence
 * Validation data (50 cases) based on textual judgemen
 
+
 ## Data Pipeline
-![This is a alt text.](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_1/ppt/W2V.png?raw=true)
+![Data Pipeline](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_1/ppt/datapipeline.PNG?raw=true)
 
 
 
