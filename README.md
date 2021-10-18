@@ -13,7 +13,7 @@ Intuitive judgement:
 
 
 ## Data Pipeline
-![Data Pipeline](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_1/ppt/datapipeline.PNG?raw=true)
+![Data Pipeline](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_1/ppt/datapipeline2.PNG?raw=true)
 
 
 
