@@ -49,13 +49,23 @@ Intuitive judgement:
 * Criterion 
 	* Count the weight of an article, weight greater than 50 points is obesity.
 
-### Machine Learning
+### Machine learning article vector
+* A、 Calculate the average vector of the article and use it as the article vector.
+* B、 Calculate the weight vector of the article, give the weight to the key words, and use it as the article vector.
+
+
+
+### Machine Learning Classification algorithm
 * Naive Bayes
+	* Naive bayes is a classification model based on calculating the probability of conditions. By assuming that each event is independent, the probability under each condition can be calculated to obtain the probability of the event (category) occurring
 * Random Forest
-* SVM
+	* The (random forest) algorithm establishes the outcome based on the predictions of the decision trees. It predicts by taking the average or mean of the output from various trees. Increasing the number of trees increases the precision of the outcome.
+* XGboost
+	* XGBoost (Extreme Gradient Boosting) is a Gradient Boosted Tree (GBDT) that keeps the original model unchanged every time, and adds a new function to the model to correct the error of the previous tree to improve the overall model. Mainly used to solve the problem of supervision is learning, can be used for classification can also be used for regression problems.
+
 
 ## Result
-##### statistic  
+#### statistic  
 | Test data  |  |
 | ---------- |:----:|
 | Precision  | 0.985|
@@ -66,3 +76,16 @@ Intuitive judgement:
 | Validation data |  |
 | ---------- |:----:|
 | f1         | 0.543|
+
+
+#### Machine learning(A)
+| Test data  | Naive Bayes| Random Forest| XGBoost  |
+| ---------- |:----------:|:------------:|:--------:|
+| Precision  | 0.70       | 0.72         | 0.73     |
+| Recall     | 0.63       | 0.68         | 0.73     |
+| Accuracy   | 0.70       | 0.73         | 0.75     |
+| f1         | 0.66       | 0.70         | 0.73     |
+
+| Validation data | Naive Bayes| Random Forest| XGBoost    |
+| ----------      |:----------:|:------------:|:----------:|
+| f1              | 0.543      |   0.485      | 0.514      |
