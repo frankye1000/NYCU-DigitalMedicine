@@ -89,3 +89,16 @@ Intuitive judgement:
 | Validation data | Naive Bayes| Random Forest| XGBoost    |
 | ----------      |:----------:|:------------:|:----------:|
 | f1              | 0.543      |   0.485      | 0.514      |
+
+
+#### Machine learning(B)
+| Test data  | Naive Bayes| Random Forest| XGBoost  |
+| ---------- |:----------:|:------------:|:--------:|
+| Precision  | 1.00       | 1.00         | 1.00     |
+| Recall     | 0.90       | 0.95         | 0.95     |
+| Accuracy   | 0.95       | 0.98         | 0.98     |
+| f1         | 0.95       | 0.94         | 0.97     |
+
+| Validation data | Naive Bayes| Random Forest| XGBoost    |
+| ----------      |:----------:|:------------:|:----------:|
+| f1              | 0.543      |   0.543      | 0.480      |
