@@ -11,6 +11,10 @@ Intuitive judgement:
 	* 200 cases obesity vs. 200 cases absence
 * Validation data (50 cases) based on textual judgemen
 
+## Data Pipeline
+![This is a alt text.](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_1/ppt/W2V.png?raw=true)
+
+
 
 ## Text Preprocessing
 * Remove __punctuation__
@@ -22,13 +26,15 @@ Intuitive judgement:
 * __Lemmatize__
 	* Lemmatization is to remove the affixes of the word and extract the main part of the word. For example, the word "cars" after lemmatize is "car", and the word "ate" after lemmatize is "eat".
 
+
+
 ## W2V
 * Advantage
 	* Compared with one hot encoding, Word to vector can consider a word in the context of the article.
 * Algorithm   
 	*  word to vector contains two algorithms, Skip-gram and CBOW. Skip-gram uses the central word to predict the context, and CBOW uses the context to predict the central word.
 
-![This is a alt text.](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_1/ppt/W2V.png?raw=true)
+![w2v](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_1/ppt/W2V.png?raw=true)
 
 
 ## Method
