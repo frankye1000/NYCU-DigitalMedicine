@@ -64,6 +64,13 @@ Intuitive judgement:
 	* XGBoost (Extreme Gradient Boosting) is a Gradient Boosted Tree (GBDT) that keeps the original model unchanged every time, and adds a new function to the model to correct the error of the previous tree to improve the overall model. Mainly used to solve the problem of supervision is learning, can be used for classification can also be used for regression problems.
 
 
+### Deep learning Spacy.TextRecognizer
+* CNN
+	* Convolutional neural network (CNN, or ConvNet) is a class of artificial neural network, most commonly applied to analyze visual imagery. They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on the shared-weight architecture of the convolution kernels or filters that slide along input features and provide translation equivariant responses known as feature maps.
+* Spacy.TextRecognizer
+	* The model supports classification with multiple, non-mutually exclusive labels. By default, the TextCategorizer class uses a convolutional neural network to assign position-sensitive vectors to each word in the document. The TextCategorizer uses its own CNN model, to avoid sharing weights with the other pipeline components. The document tensor is then summarized by concatenating max and mean pooling, and a multilayer perceptron is used to predict an output vector of length nr_class. The value of each output neuron is the probability that some class is present.
+
+
 ## Result
 #### statistic  
 | Test data  |  |
