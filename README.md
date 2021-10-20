@@ -128,13 +128,16 @@ Intuitive judgement:
 ## Conclusion
 
 * Overfitting
-| problem    | improve |
-| :----------:|:----------:|
-| Train dataset is too small                         | More train dataset | 
-| Bad weight design                                  | More dataset to reference       | 
-| Test dataset vs validation dataset too different   | Pick data sets more evenly       | 
+	* problem
+		* Train dataset is too small
+		* Bad weight design 
+		* Test dataset vs validation dataset too different 
 
+	*  improve
+		* More train dataset to reference
+		* Pick data sets more evenly
+	
 * More Try
 	* Redesign and reduce word vector
 	* Redesign the weight
-	* Word Clustering by K-Means、DBCAN.
+	* Word Clustering by K-Means、DBCAN
