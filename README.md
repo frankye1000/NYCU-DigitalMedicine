@@ -129,7 +129,7 @@ Intuitive judgement:
 
 * Overfitting
 | problem    | improve |
-| ---------- |------------|
+| :----------:|:----------:|
 | Train dataset is too small                         | More train dataset | 
 | Bad weight design                                  | More dataset to reference       | 
 | Test dataset vs validation dataset too different   | Pick data sets more evenly       | 
