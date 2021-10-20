@@ -39,6 +39,7 @@ Intuitive judgement:
 
 
 ## Method
+
 ### Statistic
 * Most similar
 	* Use cosine to calculate the __angle__ and find the most similar word of __obesity__ and __obese__.
@@ -72,6 +73,7 @@ Intuitive judgement:
 
 
 ## Result
+
 #### statistic  
 | Test data  |  |
 | ---------- |:----:|
@@ -122,3 +124,17 @@ Intuitive judgement:
 | Validation data || 
 | ----------      |:----------:|
 | f1              | 0.514      |
+
+## Conclusion
+
+* Overfitting
+| problem    | improve |
+| ---------- |------------|
+| Train dataset is too small                         | More train dataset | 
+| Bad weight design                                  | More dataset to reference       | 
+| Test dataset vs validation dataset too different   | Pick data sets more evenly       | 
+
+* More Try
+	* Redesign and reduce word vector
+	* Redesign the weight
+	* Word Clustering by K-Means、DBCAN.
