@@ -1,2 +1,0 @@
-0: Not Pneumonia
-1: Pneumonia
