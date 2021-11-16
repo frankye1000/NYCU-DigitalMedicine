@@ -1,2 +1,5 @@
 # 忽略所有 .zip 目錄
 *.zip
+
+img
+model
