@@ -193,7 +193,7 @@ Intuitive judgement:
 | ----------      |:--------:|
 | f1              | 0.6      |
 
-	![cm](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cm1.png?raw=true)
+	![cm](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cm1.png)
 
 
 ## Conclusion
