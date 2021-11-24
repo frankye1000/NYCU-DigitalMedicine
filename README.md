@@ -179,11 +179,11 @@ Intuitive judgement:
 ## Method
 
 ### efficientnet
-	![ef1](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef1.PNG?raw=true)
+![ef1](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef1.PNG?raw=true)
 			
 
 ### Squeeze-and-Excitation
-	![ef2](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef2.PNG?raw=true)
+![ef2](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef2.PNG?raw=true)
 
 ## Result
 
