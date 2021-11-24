@@ -165,6 +165,7 @@ Intuitive judgement:
 
 ## Image Preprocessing
 * Cut 
+
 	![cut](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cut.PNG?raw=true)
 * Augmentation
 	* (a)Rotation
@@ -179,7 +180,7 @@ Intuitive judgement:
 
 ### efficientnet
 	![ef1](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef1.PNG?raw=true)
-
+			
 
 ### Squeeze-and-Excitation
 	![ef2](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef2.PNG?raw=true)
@@ -192,7 +193,7 @@ Intuitive judgement:
 | ----------      |:--------:|
 | f1              | 0.6      |
 
-	![cm](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cm1.PNG?raw=true)
+	![cm](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cm1.png?raw=true)
 
 
 ## Conclusion
