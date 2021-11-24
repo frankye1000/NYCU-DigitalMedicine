@@ -193,7 +193,7 @@ Intuitive judgement:
 | ----------      |:--------:|
 | f1              | 0.6      |
 
-![ag](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/augmentation.PNG?raw=true)
+![ag](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cm1.png?raw=true)
 
 
 ## Conclusion
