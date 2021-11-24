@@ -141,3 +141,65 @@ Intuitive judgement:
 	* Redesign and reduce word vector
 	* Redesign the weight
 	* Word Clustering by K-Means、DBCAN
+	
+	
+	
+	
+# Case_Presentation_2
+
+## Introduction
+**Use chest X ray image to determine the type of new coronary pneumonia.**
+
+* Training data 
+	* Dicom files : X ray images of 1200 patients
+	* Excel files : labels of 1200 patients
+
+* Validation data
+	* Dicom files : X ray images of 150 patients
+
+
+## Data Pipeline
+![Data Pipeline](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/datapipeline.PNG?raw=true)
+
+
+
+## Image Preprocessing
+* Cut 
+	![cut](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cut.PNG?raw=true)
+* Augmentation
+	* (a)Rotation
+	* (b)Translation 
+	* (c)Scaling
+	* (d)Flipping
+	![ag](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/augmentation.PNG?raw=true)
+
+
+
+## Method
+
+### efficientnet
+	![ef1](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef1.PNG?raw=true)
+
+
+### Squeeze-and-Excitation
+	![ef2](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/ef2.PNG?raw=true)
+
+## Result
+
+#### efficientnet
+
+| Validation data || 
+| ----------      |:--------:|
+| f1              | 0.6      |
+
+	![cm](https://github.com/frankye1000/NYCU-DigitalMedicine/blob/master/Case_Presentation_2/ppt/cm1.PNG?raw=true)
+
+
+## Conclusion
+
+* Overfitting
+* Mislable
+	
+* Future work
+	* Learning how to distinguish these three types of images.
+	* Combine different types of data except images. 
